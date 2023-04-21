@@ -1,44 +1,8 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
- 
-@MatheusGW 
-MatheusGW
-/
-perfil
-Public
-Cannot fork because you own this repository and are not a member of any organizations.
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-Beta Try the new code view
-perfil/styles.css
-@MatheusGW
-MatheusGW Create styles.css
-Latest commit 67fb73b last week
- History
- 1 contributor
-104 lines (86 sloc)  1.54 KB
- 
-
-
- 
-
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
 
 body {
-  font-size: 26px;
-  background: #9a0e70;
+  font-size: 20px;
+  background: #303030;
   font-family: Roboto, sans-serif;
  }
 
@@ -56,16 +20,16 @@ body {
   width: 300px;
 }
 
- #text{
-  align-self: center;
+ #text {
+	align-self: right;
   padding: 50px;
+	font-size: 20px;
  }
-lá, eu me chamo Matheus, e aqui você verá algumas informações sobre mim
+
  .social{
   font-size: 35px;
-  color: rgb(84, 88, 110);
+  color: coral;
   padding: 10px;
-  margin-left: 40px;
   height:40px;
   width: 60px;
   border-radius: 50%;
@@ -79,19 +43,13 @@ lá, eu me chamo Matheus, e aqui você verá algumas informações sobre mim
   box-shadow: 0px 3px 10px rgba(0,0,0,.25);
  }
 
- #linkedin:hover{
-  background: #0072b1;
-  color: #fff;
-  transition: 0.5s;
- }
-
  #facebook:hover{
   background: #4267B2;
   color: #fff;
   transition: 0.5s;
  }
 
- #steam:hover{
+ #youtube:hover{
   color:  #f1f1f1;
   transition: 0.9s;
   background-color: #171a21;
@@ -104,195 +62,25 @@ lá, eu me chamo Matheus, e aqui você verá algumas informações sobre mim
  }
 
  .description{
-  font-size: 17px;
+  font-size: 20px;
   color: #08090b;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.836);
   max-width: 850px;
+	max-height: 300px;
   padding: 10px;
-  background-color: #f1f1f1;
-  margin-top:100px;
+  background-color: #ffffff;
+  margin-top: 100px;
   justify-content: center;
  }
 
  footer{
   text-align: center;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 900;
   padding: 50px;
+	color: #0072b1;
+}
+#Matheus {
+	color: #285AEB;
 }
 
-#lucas{
-  font-weight: bold;
-}
-lá, eu me chamo Matheus, e aqui você verá algumas informações sobre mim
-#lucas:hover{
-  color: crimson;Skip to content
-Search or jump to…
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
- 
-@MatheusGW 
-MatheusGW
-/
-perfil
-Public
-Cannot fork because you own this repository and are not a member of any organizations.
-CodeMeu nome é Matheus Gonçalves Wilczek, e tenho 16 anos de idade, moro em Curitiba, e estou cursando Análise e Projeto De Sistemas no colégio Dirce.
-
-Gosto de praticar esportes como vôlei e basquete, eu pulo alto, então me dou bem com esses esportes, mas sou ruim em futebol.
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-Beta Try the new code viewMeu nome é Matheus Gonçalves Wilczek, e tenho 16 anos de idade, moro em Curitiba, e estou cursando Análise e Projeto De Sistemas no colégio Dirce.
-
-Gosto de praticar esportes como vôlei e basquete, eu pulo alto, então me dou bem com esses esportes, mas sou ruim em futebol.
-Latest commit 67fb73b last week
- History
- 1 contributor
-104 lines (86 sloc)  1.54 KB
- 
-
-
- 
-
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
-
-body {
-  font-size: 26px;
-  background: #f1f1f1;
-  font-family: Roboto, sans-serif;
- }
-
- .main{
-  max-width: 1500px;
-  margin: 0 auto;
-  padding: 25px;
-  display: flex;
-  text-align: center;
-  justify-content: center;
- }
-
- #img {
-  border-radius: 5%;
-  width: 300px;
-}
-
- #text{
-  align-self: center;
-  padding: 30px;
- }
-
- h4{
-  color: rgb(214, 34, 34);
-  opacity: 0.8;
- }
-
- .social{
-  font-size: 35px;
-  color: #000;
-  padding: 10px;
-  margin-left: 40px;
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
- }
-
-#insta:hover{
-  color:  #f1f1f1;
-  transition: 0.9s;
-  background: #d6249f;
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
- }
-
- #linkedin:hover{
-  background: #0072b1;
-  color: #fff;
-  transition: 0.5s;
- }
-
- #facebook:hover{
-  background: #4267B2;
-  color: #fff;
-  transition: 0.5s;
- }
-
- #steam:hover{
-  color:  #f1f1f1;
-  transition: 0.9s;
-  background-color: #171a21;
-  
- }
-
- #github:hover{
-  color: #171515;
-  transition: 0.5s;
-  background-color: #fff;
- }
-
- .description{
-  font-size: 17px;
-  color: #0055ff;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.836);
-  max-width: 850px;
-  padding: 10px;
-  background-color: #f1f1f1;
-  margin-top: 20px;
-  justify-content: center;
- }
-
- footer{
-  text-align: center;
-  font-size: 16px;
-  font-weight: 200;
-  padding: 50px;
-}
-
-#lucas{
-  font-weight: bold;
-}
-
-#lucas:hover{
-  color: crimson;
-  opacity: 0.8;
-  transition: 0.5s;
-}
-Footerdescription
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-perfil/styles.css at main · MatheusGW/perfil
-  opacity: 0.8;
-  transition: 0.5s;
-}
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-perfil/styles.css at main · MatheusGW/perfil
